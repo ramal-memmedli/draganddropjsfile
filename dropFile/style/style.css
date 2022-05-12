@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .file-input-box {
+  z-index: 100;
+  margin-bottom: 2rem;
+}
+
+main .file-input-box #fileInput {
+  display: none;
+}
+
+main .file-input-box .file-input-btn {
+  border: .3rem dashed #91917d;
+  border-radius: .5rem;
+  font-weight: 700;
+  color: #91917d;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+}
+
+main .file-input-box .file-input-btn span {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: .5rem;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+}
+
+main .file-input-box .file-input-btn span.click-here-btn {
+  background-color: #91917d;
+  color: #FFF;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+}
+
+main .file-input-box .file-input-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+main .file-input-box .file-input-btn:hover .click-here-btn {
+  background-color: #5f5f56;
+}
+
+main .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3rem;
+}
+
+main .images .image {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
